@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body id="body">
+	<h2>Word - Fontes e afins</h2>
+	<p>Quando tratamos de fontes, há alguns aspectos a serem conhecidos:</p>
+	<img src="icones/negrito.jpg" style="float:left" alt="paragrafo"/>
+	<p>- Deixa o texto em negrito. Ex: aluno -> <strong> aluno</strong></p>
+	<p>Tecla de atalho = Ctrl + N (N de Negrito!)</p>
+	<hr>
+	<img src="icones/sublinhado.jpg" style="float:left" alt="paragrafo"/>
+	<p>- Deixa o texto sublinhado. Ex: proeja -> <u> proeja</u></p>
+	<p>Tecla de atalho = Ctrl + S (S de Sublinhado!)</p>
+	<hr>
+	<img src="icones/italico.jpg" style="float:left" alt="paragrafo"/>
+	<p>- Deixa o texto em itálico (de 'ladinho'). Ex: aula -> <i>aula</i></p>
+	<p>Tecla de atalho = Ctrl + I (I de Itálico!)</p>
+	<hr>
+	<h3>Perceba que cada símbolo estiliza a fonte de modo diferente, e podem ser utilizados juntos, ex:<h3>
+	<p id="carro">Carro -> S + I -> <u><i>Carro</i></u></p>
+	<p>PS: Para lembrar dos atalhos do teclado, basta lembrar do nome das funções!!</p>
+	<h3> Ctrl N - Negrito || Ctrl I - Itálico || Ctrl S - Sublinhado </h3>
+	<h3>Outra coisa!! Se você selecionar uma palavra que está com um estilo, e clicar no estilo novamente, a palavra volta ao normal!</h3>
+	<h3>Ex: <i>Cachorro</i> - Seleciono a palavra e clico no I denovo -> Cachorro </h3>
+	<h3>Abra seu word, teste, brinque e veja como funciona!!</h3>
+	<h2>Agora, depois de ver como funciona, está na hora da questão!! hehe </h2>
+	<hr>
+	<h3>Ao selecionar o trecho "O dia está bonito" e aplicar Ctrl + N, depois Ctrl + I e por fim Ctrl + N denovo, como ficará o trecho em questão??</h3>
+	<ul id="resposta_pword1">
+		<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"><b>O dia está bonito</b></label><br/>
+		<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"><u>O dia está bonito</u></label><br/>
+		<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"><i>O dia está bonito</i></label><br/>
+		<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"><b><i>O dia está bonito</b></i></label><br/>
+	</ul>
+	<input type="button" id="btn" value="Responder"/>
+	<p id="retorno"></p>
+	<script type="text/javascript" src="http://localhost:8080/jquery_login/jogo/js/jquery.js"></script>
+	<script type="text/javascript" src="http://localhost:8080/jquery_login/jogo/js/respostas_jquery.js"></script>
+</body>
+</html>
